@@ -48,6 +48,7 @@ html, body {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .wrapper {
@@ -62,8 +63,8 @@ html, body {
 }
 
 .main-img {
-    min-height: 100vh;
-    width: auto;
+    max-width: 1062px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -98,6 +99,14 @@ html, body {
 
 .color-links-grey {
     color: #b4ad9e;
+}
+
+.text-decoration h6 {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .text-decoration h2 {
@@ -171,6 +180,19 @@ html, body {
     font-weight: 400;
     line-height: 24px;
     text-align: center;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.footer .container {
+    flex-grow: 0.05;
 }
 
 .color-dark {
