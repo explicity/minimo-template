@@ -78,6 +78,9 @@ body {
     margin-bottom: 130px;
 }
 
+.perfect-weekend ul {
+    margin-top: 100px;
+}
 
 .text-decoration h5 {
     color: #b4ad9e;
@@ -85,6 +88,9 @@ body {
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.perfect-weekend h5 {
     margin: 30px 0;
 }
 
@@ -93,11 +99,13 @@ body {
 }
 
 .text-decoration h2 {
-    color: #626262;
     font-family: "Playfair Display";
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 35px;
+}
+
+.perfect-weekend h2 {
+    margin-bottom: 35px;    
 }
 
 .text-decoration p {
@@ -106,4 +114,50 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.signing-up {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.signing-up h2 {
+    margin: 75px 0 60px 0;
+}
+
+.signing-up form {
+    margin-bottom: 75px;
+}
+
+.input-decoration {
+    border-style: none;
+    background-color: #f0f0f0;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 350px;
+}
+
+.form-border {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+.btn-decoration {
+    background: url("photos/send-icon.png") no-repeat center center;
+    width: 32px;
+    height: 17px;
+    border: 1px solid transparent;
+}
+
+.color-dark {
+    color: #333333;
+}
+
+.color-grey {
+    color: #626262;        
 }
