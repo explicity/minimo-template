@@ -6,8 +6,11 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    float: none;
 }
 
 .header {
@@ -61,7 +64,6 @@ body {
 .main-img {
     min-height: 100vh;
     width: auto;
-    max-width: 1062px;
     overflow: hidden;
 }
 
@@ -73,13 +75,13 @@ body {
     align-items: center;
 }
 
-.perfect-weekend .flex li {
+.flex li {
     flex: 0 0 420px;
     margin-bottom: 130px;
 }
 
-.perfect-weekend ul {
-    margin-top: 100px;
+.perfect-weekend ul, .list-continue ul {
+    margin-top: 120px;
 }
 
 .text-decoration h5 {
@@ -90,11 +92,11 @@ body {
     text-transform: uppercase;
 }
 
-.perfect-weekend h5 {
-    margin: 30px 0;
+.perfect-weekend h5, .list-continue h5 {
+    margin: 25px 0;
 }
 
-.text-decoration a {
+.color-links-grey {
     color: #b4ad9e;
 }
 
@@ -104,7 +106,7 @@ body {
     font-weight: 400;
 }
 
-.perfect-weekend h2 {
+.perfect-weekend h2, .list-continue h2 {
     margin-bottom: 35px;    
 }
 
@@ -124,7 +126,7 @@ body {
 }
 
 .signing-up h2 {
-    margin: 75px 0 60px 0;
+    margin: 75px 0 75px 0;
 }
 
 .signing-up form {
@@ -152,6 +154,23 @@ body {
     width: 32px;
     height: 17px;
     border: 1px solid transparent;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    border: 1px solid #626262;
+}
+
+.btn-align {
+    margin: 100px 0 1500px 0;
+}
+
+.text-decoration h3 {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
 }
 
 .color-dark {
