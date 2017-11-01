@@ -8,23 +8,31 @@
 
 html, body {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     float: none;
 }
 
 .header {
     background-color: #fff;
-    height: 20vh;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 70px;
+    width: 100%;    
+    max-width: 1062px;
+    margin: 0 auto;
 }
 
 .logo {
     color: #000000;
-    font-family: Inconsolata, monospace;
+    font-family: Inconsolata, Courier, monospace;
     font-size: 30px;
     font-weight: 400;
     line-height: 24px;
@@ -37,7 +45,7 @@ html, body {
 }
 
 .nav-decoration a {
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
     color: #626262;
     font-size: 14px;
     font-weight: 400;
@@ -56,16 +64,18 @@ html, body {
     width: 75%;
 }
 
+
 .welcome-section {
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    margin: 30px 0 80px 0;
+    height: 100vh;
+    padding-top: 100px;
 }
 
 .main-img {
-    max-width: 1062px;
-    height: auto;
     overflow: hidden;
+    max-width: 1062px;    
 }
 
 .flex {
@@ -81,50 +91,63 @@ html, body {
     margin-bottom: 130px;
 }
 
+.perfect-weekend {
+    margin-top: 80px;
+}
+
 .perfect-weekend ul, .list-continue ul {
     margin-top: 120px;
 }
 
+.text-decoration h2 {
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-decoration h3 {
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
 .text-decoration h5 {
     color: #b4ad9e;
-    font-family: Ubuntu;
+    font-family: Ubuntu, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.text-decoration h6 {
+    color: #000000;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.text-decoration p {
+    color: #626262;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.photo-size {
+    max-width: 423px;
+    height: auto;
 }
 
 .perfect-weekend h5, .list-continue h5 {
     margin: 25px 0;
 }
 
-.color-links-grey {
-    color: #b4ad9e;
-}
-
-.text-decoration h6 {
-    color: #000000;
-    font-family: "Playfair Display";
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 24px;
-}
-
-.text-decoration h2 {
-    font-family: "Playfair Display";
-    font-size: 30px;
-    font-weight: 400;
-}
-
 .perfect-weekend h2, .list-continue h2 {
     margin-bottom: 35px;    
-}
-
-.text-decoration p {
-    color: #626262;
-    font-family: "Playfair Display";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 .signing-up {
@@ -146,7 +169,7 @@ html, body {
     border-style: none;
     background-color: #f0f0f0;
     color: #626262;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -155,7 +178,7 @@ html, body {
 
 .form-border {
     padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 .btn-decoration {
@@ -171,24 +194,21 @@ html, body {
 }
 
 .btn-align {
-    margin: 100px 0 1500px 0;
-}
-
-.text-decoration h3 {
-    font-family: "Playfair Display";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
+    margin: 100px 0;
 }
 
 .footer {
     background-color: #f0f0f0;
     height: 100px;
     display: flex;
+}
+
+.footer-wrapper {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 70px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .footer .container {
@@ -201,4 +221,8 @@ html, body {
 
 .color-grey {
     color: #626262;        
+}
+
+.color-links-grey {
+    color: #b4ad9e;
 }
